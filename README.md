@@ -1,4 +1,4 @@
-## Machine Learning 
+## Machine Learning 🤖
 > Kumpulan Tugas Mata Kuliah Machine Learning
 
 [Tugas Pertemuan 1](https://github.com/anamrepida/MachineLearning)
