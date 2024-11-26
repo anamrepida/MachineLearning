@@ -17,7 +17,7 @@
 
 [Tugas Pertemuan 3](https://github.com/anamrepida/MachineLearning) 
 -   Decision Tree
--   Random Forest
+-   Random Forrest
 
 [Tugas Pertemuan 4](https://github.com/anamrepida/MachineLearning) 
 -   Naive Bayes
