@@ -1,5 +1,9 @@
-## Machine Learning 🤖
+# Machine Learning 🤖
 > Kumpulan Tugas Mata Kuliah Machine Learning
+
+| Nama          | NPM                 | Description          |
+| :------------ | :------------------ | :------------------- |
+| Adi Permana   | 4115 5050 210054    | Teknik Informatika C |
 
 [Tugas Pertemuan 1](https://github.com/anamrepida/MachineLearning/tree/main/Tugas%20Pertemuan%201)
 -   Instalasi Jupyter Notebook
