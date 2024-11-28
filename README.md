@@ -1,7 +1,7 @@
 # Machine Learning 🤖
 > Kumpulan Tugas Mata Kuliah Machine Learning
 
-| Nama          | NPM                 | Description          |
+| Nama          | NPM                 | Kelas          |
 | :------------ | :------------------ | :------------------- |
 | Adi Permana   | 4115 5050 210054    | Teknik Informatika C |
 
