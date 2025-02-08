@@ -1,12 +1,20 @@
+# Menggunakan image Python dasar
 FROM python:3.9-slim
 
-# Install dependencies
+# Set direktori kerja di dalam container
 WORKDIR /app
+
+# Upgrade pip dan setuptools
+RUN pip install --upgrade pip setuptools
+
+# Menyalin file requirements.txt ke container
 COPY requirements.txt /app/
+
+# Install dependensi yang diperlukan
 RUN pip install -r requirements.txt
 
-# Copy project files
+# Menyalin semua file aplikasi ke dalam container
 COPY . /app/
 
-# Set environment variable to make the app run
-CMD ["python", "app.py"]  # Sesuaikan dengan file utama aplikasi Pythonmu (Flask atau Django)
+# Menjalankan aplikasi menggunakan gunicorn
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:5000"]
