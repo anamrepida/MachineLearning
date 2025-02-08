@@ -1,4 +1,4 @@
-## Tugas Pertemuan 12
+## Tugas Pertemuan 13
 > Self Organizing Maps
 
 ## Self Organizing Maps
