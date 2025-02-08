@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, redirect
 import pickle
 import sklearn
-import numpy as np                        # numpy==1.19.3
+import numpy as np
 
-app = Flask(__name__)
+app = Flask(__name__) # Adi Permana_41155050210054
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
